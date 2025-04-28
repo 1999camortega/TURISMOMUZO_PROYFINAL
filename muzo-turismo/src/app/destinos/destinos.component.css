@@ -1,0 +1,56 @@
+/* Título principal */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #2c3e50;
+  }
+  
+  /* Contenedor de los destinos */
+  .destinos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  /* Cada tarjeta de destino */
+  .destino-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 250px;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Efecto al pasar el mouse */
+  .destino-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Imagen de destino */
+  .destino-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Nombre del destino */
+  .destino-card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Descripción corta */
+  .destino-card p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
